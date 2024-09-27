@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
 
   function sendMessage() {
-    window.location.href = "https://api.whatsapp.com/send/?phone=923322099473&text=Hello%21+I%27m+interested+in+your+products&type=phone_number&app_absent=0";
+    window.location.href = "https://api.whatsapp.com/send/?phone=923271042006&text=Hello%21+I%27m+interested+in+your+products&type=phone_number&app_absent=0";
   }
 
   return (
