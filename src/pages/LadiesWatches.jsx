@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import ProductCard from '../components/ProductCard';
 
-const Watches = () => {
+const LadiesWatches = () => {
   // use state
   const [product, setproduct] = useState([])
 
@@ -11,49 +11,49 @@ const Watches = () => {
       // Rings
       {
         title: "Elegant Gold Ring",
-        img: "path-to-elegant-gold-ring-image.jpg",
+        img: "https://i.pinimg.com/564x/6f/75/cb/6f75cb54fb7908964a265ebcd2a2d2d4.jpg",
         description: "A beautiful gold ring with a modern design.",
         category: "Rings"
       },
       {
         title: "Diamond Engagement Ring",
-        img: "path-to-diamond-engagement-ring-image.jpg",
+        img: "https://i.pinimg.com/736x/9e/30/c8/9e30c82e264879e93bf2ce3c0e165822.jpg",
         description: "A stunning diamond ring, perfect for engagements.",
         category: "Rings"
       },
       {
         title: "Silver Band Ring",
-        img: "path-to-silver-band-ring-image.jpg",
+        img: "https://i.pinimg.com/564x/f0/8c/4a/f08c4abc28dc13c7ac46ace653e9c086.jpg",
         description: "A sleek silver band for a minimalist style.",
         category: "Rings"
       },
       {
         title: "Ruby Gold Ring",
-        img: "path-to-ruby-gold-ring-image.jpg",
+        img: "https://i.pinimg.com/564x/26/55/2b/26552bb67a958732099fe716b242c1b2.jpg",
         description: "A luxurious gold ring with a radiant ruby gemstone.",
         category: "Rings"
       },
       {
         title: "Sapphire Platinum Ring",
-        img: "path-to-sapphire-platinum-ring-image.jpg",
+        img: "https://i.pinimg.com/564x/b0/d8/9b/b0d89b100342b7398c838527e33a9cfa.jpg",
         description: "An exquisite platinum ring with a sapphire centerpiece.",
         category: "Rings"
       },
       {
         title: "Classic Wedding Band",
-        img: "path-to-wedding-band-ring-image.jpg",
+        img: "https://i.pinimg.com/564x/32/a6/0c/32a60c08f7e3983cb569ea5b6637b122.jpg",
         description: "A simple and elegant wedding band made of gold.",
         category: "Rings"
       },
       {
         title: "Emerald Cocktail Ring",
-        img: "path-to-emerald-cocktail-ring-image.jpg",
+        img: "https://i.pinimg.com/564x/32/62/77/3262772240b767a1e9dc315b0b781d65.jpg",
         description: "A bold emerald ring perfect for special occasions.",
         category: "Rings"
       },
       {
         title: "Vintage Opal Ring",
-        img: "path-to-vintage-opal-ring-image.jpg",
+        img: "https://i.pinimg.com/564x/a6/4a/db/a64adb7fb8553b099244e1ff50345d2b.jpg",
         description: "A vintage-style opal ring with intricate detailing.",
         category: "Rings"
       },
@@ -111,49 +111,49 @@ const Watches = () => {
       // Ladies Watches
       {
         title: "Ladies Gold Watch",
-        img: "path-to-ladies-gold-watch-image.jpg",
+        img: "https://i.pinimg.com/564x/8b/d9/d4/8bd9d4eb6f4518eaf548e1801e35399c.jpg",
         description: "A chic gold watch designed for women with style.",
         category: "Ladies Watches"
       },
       {
         title: "Ladies Diamond Watch",
-        img: "path-to-ladies-diamond-watch-image.jpg",
+        img: "https://i.pinimg.com/564x/8b/d9/d4/8bd9d4eb6f4518eaf548e1801e35399c.jpg",
         description: "A luxurious ladies' watch with embedded diamonds.",
         category: "Ladies Watches"
       },
       {
         title: "Rose Gold Ladies Watch",
-        img: "path-to-rose-gold-ladies-watch-image.jpg",
+        img: "https://i.pinimg.com/564x/a1/a6/a4/a1a6a44d557f583e11f938e2c6f809cd.jpg",
         description: "A trendy rose gold watch perfect for every occasion.",
         category: "Ladies Watches"
       },
       {
         title: "Elegant Bracelet Watch",
-        img: "path-to-bracelet-watch-image.jpg",
+        img: "https://i.pinimg.com/736x/b4/0b/90/b40b90ae6086010708af632af4debf77.jpg",
         description: "A slim ladies' watch with a bracelet-style band.",
         category: "Ladies Watches"
       },
       {
         title: "Ladies Chronograph Watch",
-        img: "path-to-ladies-chronograph-watch-image.jpg",
+        img: "https://i.pinimg.com/564x/57/53/1d/57531daa8def83cbbf6a39e7fc1e8dce.jpg",
         description: "A fashionable chronograph watch for women.",
         category: "Ladies Watches"
       },
       {
         title: "Vintage Leather Strap Watch",
-        img: "path-to-vintage-leather-strap-watch-image.jpg",
+        img: "https://i.pinimg.com/736x/34/83/e3/3483e31a213b888c988f41adecd89177.jpg",
         description: "A vintage-style leather strap watch for women.",
         category: "Ladies Watches"
       },
       {
         title: "Minimalist White Watch",
-        img: "path-to-minimalist-white-watch-image.jpg",
+        img: "https://i.pinimg.com/736x/90/cb/25/90cb25e0aae021bb93a67ed4f6e590c2.jpg",
         description: "A minimalist white watch for ladies with a modern taste.",
         category: "Ladies Watches"
       },
       {
         title: "Pearl Bezel Ladies Watch",
-        img: "path-to-pearl-bezel-ladies-watch-image.jpg",
+        img: "https://i.pinimg.com/564x/b1/b6/ec/b1b6ec5df8b31cabb9cae9d0001224b5.jpg",
         description: "An elegant watch with a pearl bezel for a luxurious touch.",
         category: "Ladies Watches"
       },
@@ -208,8 +208,10 @@ const Watches = () => {
         category: "Jewelry"
       }
     ];
+    console.log(items);
+    
 
-    const filteredItems = items.filter(item => item.category === "Watches");
+    const filteredItems = items.filter(item => item.category === "Ladies Watches");
     console.log(filteredItems);
     setproduct(filteredItems)
     console.log(product);
@@ -218,13 +220,13 @@ const Watches = () => {
   return (
     <>
       <section className='container mx-auto'>
-      <div className='flex justify-between mt-5'>
-          <h1 className='text-3xl font-bold'>Watches</h1>
+        <div className='flex justify-between mt-5'>
+          <h1 className='text-3xl font-bold'>Ladies Watches</h1>
           <p className='btn'>Items</p>
         </div>
         <div>
-          {product.length > 0 ? <div className='flex mt-3 flex-wrap'>{product.map((item,index) => (
-            <ProductCard item={item}/>
+          {product.length > 0 ? <div className='flex mt-5 flex-wrap'>{product.map((item,index) => (
+            <ProductCard key={index} item={item}/>
           ))}</div> : <p>Loading</p>}
         </div>
       </section>
@@ -232,4 +234,4 @@ const Watches = () => {
   )
 }
 
-export default Watches
+export default LadiesWatches

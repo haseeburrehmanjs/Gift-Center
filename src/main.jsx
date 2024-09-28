@@ -5,9 +5,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Watches from './pages/Watches.jsx'
 import Home from './pages/Home.jsx'
 import Rings from './pages/Rings.jsx'
-import Jewelry from './pages/Jewelry.jsx'
 import Contact from './pages/Contact.jsx'
 import About from './pages/About.jsx'
+import LadiesWatches from './pages/LadiesWatches.jsx'
 
 const router = createBrowserRouter([
   {
@@ -31,8 +31,8 @@ const router = createBrowserRouter([
         element: <Rings />
       },
       {
-        path: 'jewelry',
-        element: <Jewelry />
+        path: 'ladiesWatches',
+        element: <LadiesWatches />
       },
       {
         path: 'contact',

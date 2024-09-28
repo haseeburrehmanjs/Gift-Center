@@ -26,9 +26,8 @@ const Navbar = () => {
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-black">
                             <li><Link to='/'>Home</Link></li>
                             <li><Link to='watches'>Watches</Link></li>
-                            <li><Link to='jewelry'>Jewelry</Link></li>
+                            <li><Link to='ladieswatches'>Ladies Watches</Link></li>
                             <li><Link to='rings'>Rings</Link></li>
-                            <li><Link to='about'>About</Link></li>
                         </ul>
                     </div>
                 </div>
