@@ -218,7 +218,7 @@ const Watches = () => {
   return (
     <>
       <section className='container mx-auto'>
-      <div className='flex justify-between mt-5'>
+      <div className='flex justify-between items-center mt-5 mx-2'>
           <h1 className='text-3xl font-bold'>Watches</h1>
           <p className='btn'>Items</p>
         </div>
