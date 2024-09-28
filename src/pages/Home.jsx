@@ -6,6 +6,10 @@ const Home = () => {
     window.location.href = "https://api.whatsapp.com/send/?phone=923271042006&text=Hello%21+I%27m+interested+in+your+products&type=phone_number&app_absent=0";
   }
 
+  function sendMessageInsta(){
+    window.location = 'https://www.instagram.com/ahemd_brothers?igsh=a2xjd21kZnh4M2U5'
+  }
+
   return (
     <>
       <section className="text-gray-600 body-font">
@@ -20,13 +24,13 @@ const Home = () => {
           />
           <div className="text-center lg:w-2/3 w-full" bis_skin_checked={1}>
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              Your One-Stop Gift Shop Since 1991!
+              Your One-Stop Gift Shop Since 1990!
             </h1>
             <p className="mb-8 leading-relaxed">
               Established in 1991, our shop has been providing all types of gifts to make your special moments unforgettable. From elegant home decor to personalized items, you'll find the perfect gift for every occasion. Visit us today to discover a wide variety of unique and thoughtful gifts!
             </p>
             <div className="flex justify-center gap-2" bis_skin_checked={1}>
-              <button className="inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg">
+              <button onClick={sendMessageInsta} className="inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg">
                 Instagram
               </button>
               <button 
