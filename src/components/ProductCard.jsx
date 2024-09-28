@@ -1,4 +1,5 @@
 import React from 'react'
+import WhatsappBtn from './WhatsappBtn';
 
 const ProductCard = (item) => {
     console.log(item);
@@ -22,6 +23,7 @@ const ProductCard = (item) => {
                        {title}
                     </h2>
                     <p className="mt-1">{description}</p>
+                    <WhatsappBtn/>
                 </div>
             </div>
         </>
