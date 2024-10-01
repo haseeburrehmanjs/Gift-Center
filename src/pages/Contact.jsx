@@ -7,7 +7,7 @@ const Contact = () => {
   }
 
   function sendMessageInsta(){
-    window.location = 'https://www.instagram.com/ahemd_brothers?igsh=a2xjd21kZnh4M2U5'
+    window.location = 'https://www.instagram.com/ahmed_brothers07'
   }
   function tiktokpage(){
     window.location = 'hhttp://tiktok.com/@ahmad_brothers07'
