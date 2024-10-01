@@ -7,7 +7,7 @@ const Home = () => {
   }
 
   function sendMessageInsta(){
-    window.location = 'https://www.instagram.com/ahemd_brothers'
+    window.location = 'https://www.instagram.com/ahmed_brothers07'
   }
 
   return (
